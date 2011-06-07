@@ -43,8 +43,8 @@ install: build
 	
 
 	#removing the jquery.js file and replacing it with a symlink
-	#rm -f $(CURDIR)/debian/persy/usr/share/doc/persy/static/jquery.js
-	#ln -s ../../../javascript/jquery/jquery.js $(CURDIR)/debian/persy/usr/share/doc/persy/static/jquery.js
+	rm -f $(CURDIR)/debian/persy/usr/share/doc/persy/static/jquery.js
+	ln -s /usr/share/javascript/jquery/jquery.js $(CURDIR)/debian/persy/usr/share/doc/persy/static/jquery.js
 
 	#removing the GPL-2 file and replacing it with a symlink
 	rm -f $(CURDIR)/debian/persy/usr/share/persy/assets/GPL-2
