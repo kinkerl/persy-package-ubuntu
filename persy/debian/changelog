@@ -1,4 +1,4 @@
-persy (0.11.2-0ubuntu1) maverick; urgency=low
+persy (0.11.2-0ubuntu1) oneiric; urgency=low
 
   * package for ubuntu
   * (LP: #519718)
