@@ -11,7 +11,7 @@ Package: persy
 Architecture: all
 Depends: ${misc:Depends}, git-core, python-pyinotify, python-paramiko, python-gtk2, python-glade2, python-notify, python (>= 2.6), python (<< 3), gitk | qgit, xterm, librsvg2-common, python-configobj
 Recommends: fortune
-Description: personal syncronization
+Description: personal synchronization
  persy is a git-based automated incremental backup tool for your personal 
  files and folders. It also has the ability to synchronize your data over 
  multiple machines.
