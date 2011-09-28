@@ -1,4 +1,4 @@
-ubuntu-packaging for ubuntu
+persy-packaging for ubuntu
 ===========================
 very short overview:
 
